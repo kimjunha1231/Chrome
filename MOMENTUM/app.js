@@ -1,10 +1,9 @@
-const mon ="mon";
-const tue = "tue";
-const wed = "wed";
-const thu = "thu";
-const fri = "fri";
-const set = "set";
-const sun = "sund";
+const daysOfWeek = ["mon", "tue" , "wed" , "thu", "fri" , "set" ];
 
-const daysOfWeek = mon, tue , wed , thu, fri , set , sun;
+// Get Item from Array
+console.log(daysOfWeek);
+
+// Add one more day to the array
+daysOfWeek.push("sun");
+
 console.log(daysOfWeek);
