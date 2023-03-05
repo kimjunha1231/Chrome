@@ -1,10 +1,7 @@
-function sayHello(){
-    console.log("Hello!");    
+function sayHello(nameOfPerson){
+    console.log("Hello my name is " + nameOfPerson);    
 }
 
-alert();
-console.log();
-sayHello();
-sayHello();
-sayHello();
-sayHello();
+sayHello("nico");
+sayHello("dal");
+sayHello("lynn");
