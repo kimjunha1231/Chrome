@@ -6,4 +6,4 @@ const myName = "nico";
 console.log(a+b);
 console.log(a*b);
 console.log(a/b);
-console.log("hello"+ myName);
+console.log("hello "+ myName);
