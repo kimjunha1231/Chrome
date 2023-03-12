@@ -1,7 +1,5 @@
-function sayHello(nameOfPerson, age){
-    console.log("Hello my name is "+nameOfPerson+"and I'm"+age);    
-}
+const title = document.getElementById("title");
+title.innerText="got you!";
 
-sayHello("nico",10);
-sayHello("dal",23);
-sayHello("lynn",21);
+console.log(title.id);
+console.log(title.className);
