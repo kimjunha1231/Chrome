@@ -40,7 +40,7 @@ function handleToDoSubmit(event){
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
 function sayHello(item){
-    console.log("this is the turn of", item);
+    console.log("this is the turndsd of", item);
 }
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
